@@ -10,7 +10,7 @@ To customize the input files, the function definition is `generate-report -> Str
 I tried using ChatGPT 3.5 to help with some regex and Typed Racket details, but it was more or less completely useless. I don't believe I actually used anything from the prompts I asked it.
 
 ### Other
-I used a lot of StackOverflow, Reddit threads, and, of course, the Racket Documentation.
+I didn't use code from any sources, but I did look at examples from StackOverflow, Reddit threads, and, of course, the Racket Documentation.
 
 ## Notes
 I tried using Typed Racket for the first time on this project. I learned very quickly that it adds a lot of safey (a.k.a complexity). 
