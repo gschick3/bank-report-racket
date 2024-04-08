@@ -1,4 +1,4 @@
-# payment-system-racket
+# bank-report-racket
 
 ## How to run
 A default function call is already at the bottom of the program to run with `ACCOUNTS.TXT`, `TRANSACTIONS.TXT`, and `STATEMENTS.TXT`, so simply running the program will get a result.
