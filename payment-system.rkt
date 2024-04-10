@@ -45,7 +45,7 @@
         [ts  (string->number timestamp)]
         [amt (string->number amount)])
     ; requires checks to confirm that types are correct
-    (if (and (exact-positive-integer? num) (exact-positive-integer? ts) (and (flonum? amt) (positive? amt)))
+    (if (and (exact-positive-integer? num) (exact-positive-integer? ts) (flonum? amt) (positive? amt))
         (make-purchase num ts merchant amt)
         #f)))
 
@@ -68,7 +68,7 @@
   (let ([num (string->number account-number)]
         [ts  (string->number timestamp)]
         [amt (string->number amount)])
-    (if (and (exact-positive-integer? num) (exact-positive-integer? ts) (and (flonum? amt) (positive? amt)))
+    (if (and (exact-positive-integer? num) (exact-positive-integer? ts) (flonum? amt) (positive? amt))
         (make-cash-payment num ts amt)
         #f)))
 
